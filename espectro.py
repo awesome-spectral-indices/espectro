@@ -44,6 +44,8 @@ BANDS = pd.DataFrame(bandsPerPlatform).rename(
     }
 )
 
+BANDS["Bandwidth (nm)"] = BANDS["Bandwidth (nm)"] / 2.0
+
 def toMath(x):
     """Convert the expression to a math-latex readable expression."""
 
