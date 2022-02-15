@@ -1,7 +1,6 @@
 json
 numpy
 pandas
-pillow
 plotly
 requests
 streamlit
