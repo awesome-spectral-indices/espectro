@@ -52,5 +52,5 @@ The app is powered by [streamlit](https://streamlit.io/). Key functions of the a
 - Display a plotly figure with the required bands for an index computation (for different platforms).
 
 <p align="center">
-  <a href="https://github.com/davemlz/espectro"><img src="https://raw.githubusercontent.com/davemlz/espectro/main/_static/espectro.png" alt="Espectro App"></a>
+  <a href="https://github.com/davemlz/espectro"><img src="https://raw.githubusercontent.com/davemlz/espectro/main/_static/espectro.gif" alt="Espectro App"></a>
 </p>
