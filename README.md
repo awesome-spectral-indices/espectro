@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/davemlz/espectro"><img src="https://raw.githubusercontent.com/davemlz/espectro/main/_static/logo_black.png" alt="Espectro"></a>
+  <a href="https://github.com/davemlz/espectro"><img src="https://raw.githubusercontent.com/davemlz/espectro/main/_static/readme_logo.png" alt="Espectro"></a>
 </p>
 <p align="center">
     <em>The Awesome Spectral Indices Streamlit App.</em>
