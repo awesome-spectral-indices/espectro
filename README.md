@@ -8,6 +8,9 @@
 <a href="https://github.com/sindresorhus/awesome" target="_blank">
     <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome">
 </a>
+<a href="https://share.streamlit.io/davemlz/espectro/main/espectro.py" target="_blank">
+    <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit">
+</a>
 <a href="https://github.com/davemlz/awesome-ee-spectral-indices/blob/main/output/spectral-indices-dict.json" target="_blank">
     <img src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/davemlz/5e9f08fa6a45d9d486e29d9d85ad5c84/raw/spectral.json" alt="Awesome Spectral Indices">
 </a>
@@ -41,6 +44,7 @@
 **Espectro** is the official Awesome Spectral Indices Streamlit App. It offers users the tools to query spectral indices from [Awesome Spectral Indices](https://github.com/davemlz/awesome-spectral-indices), a curated ready-to-use list of spectral indices. Additionally, users can visualize the required bands for an index computation using [plotly](https://plotly.com/) and to download the requested indices as CSV files.
 
 # The App
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/davemlz/espectro/main/espectro.py)
 
 The app is powered by [streamlit](https://streamlit.io/). Key functions of the app can be found here:
 
@@ -52,5 +56,5 @@ The app is powered by [streamlit](https://streamlit.io/). Key functions of the a
 - Display a plotly figure with the required bands for an index computation (for different platforms).
 
 <p align="center">
-  <a href="https://github.com/davemlz/espectro"><img src="https://raw.githubusercontent.com/davemlz/espectro/main/_static/espectro.gif" alt="Espectro App"></a>
+  <a href="https://share.streamlit.io/davemlz/espectro/main/espectro.py"><img src="https://raw.githubusercontent.com/davemlz/espectro/main/_static/espectro.gif" alt="Espectro App"></a>
 </p>
