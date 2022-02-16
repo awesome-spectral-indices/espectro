@@ -2,4 +2,3 @@ numpy
 pandas
 plotly
 requests
-streamlit
