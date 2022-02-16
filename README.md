@@ -35,6 +35,8 @@
 
 **GitHub**: <a href="https://github.com/davemlz/espectro" target="_blank">github.com/davemlz/espectro</a>
 
+**Streamlit App**: <a href="https://share.streamlit.io/davemlz/espectro/main/espectro.py" target="_blank">share.streamlit.io/davemlz/espectro/main/espectro.py</a>
+
 **Awesome Spectral Indices**: <a href="https://github.com/davemlz/awesome-spectral-indices" target="_blank">github.com/davemlz/awesome-spectral-indices</a>
 
 ---
