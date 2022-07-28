@@ -15,11 +15,11 @@ st.markdown(
     """
     The **Awesome Spectral Indices Streamlit App**.
     Created by [David Montero Loaiza](https://github.com/davemlz).
-    Powered by [Awesome Spectral Indices](https://github.com/davemlz/awesome-spectral-indices).
+    Powered by [Awesome Spectral Indices](https://github.com/awesome-spectral-indices/awesome-spectral-indices).
     """
 )
 
-CSV = "https://raw.githubusercontent.com/davemlz/awesome-spectral-indices/main/output/spectral-indices-table.csv"
+CSV = "https://raw.githubusercontent.com/awesome-spectral-indices/awesome-spectral-indices/main/output/spectral-indices-table.csv"
 
 with open("data/bands.json", "r") as f:
     bands = json.load(f)
@@ -78,7 +78,6 @@ with A:
             "Burn",
             "Water",
             "Snow",
-            "Drought",
             "Urban",
             "Kernel",
             "RADAR",
@@ -141,7 +140,7 @@ with E:
     if "All" in indexTypes:
         filtered = spectral
     else:
-        filtered = spectral[spectral.type.isin([x.lower() for x in indexTypes])]
+        filtered = spectral[spectral.application_domain.isin([x.lower() for x in indexTypes])]
     if "All" not in bandsOptions:
         filtered["checkBands"] = filtered.bands.apply(checkBands)
         filtered = filtered[filtered.checkBands == True]
