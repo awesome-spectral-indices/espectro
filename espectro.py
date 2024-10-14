@@ -78,6 +78,7 @@ with A:
             "Burn",
             "Water",
             "Snow",
+            "Soil",
             "Urban",
             "Kernel",
             "RADAR",
@@ -93,14 +94,17 @@ with B:
             "A: Aerosols",
             "B: Blue",
             "G: Green",
+            "G1: Green 1",
+            "Y: Yellow",
             "R: Red",
             "RE1: Red Edge 1",
             "RE2: Red Edge 2",
             "RE3: Red Edge 3",
-            "RE4: Near-Infrared (NIR) 2 (Red Edge 4 in Google Earth Engine)",
             "N: Near-Infrared (NIR)",
+            "N2: Narrow Near-Infrared (NIR) 2 (Red Edge 4 in Google Earth Engine)",
             "S1: Short-wave Infrared (SWIR) 1",
             "S2: Short-wave Infrared (SWIR) 2",
+            "T: Thermal Infrared ",
             "T1: Thermal Infrared 1",
             "T2: Thermal Infrared 2",
             "HH: Backscattering Coefficient HH",
@@ -144,7 +148,7 @@ with E:
     if "All" not in bandsOptions:
         filtered["checkBands"] = filtered.bands.apply(checkBands)
         filtered = filtered[filtered.checkBands == True]
-        filtered = filtered.drop("checkBands", 1)
+        filtered = filtered.drop("checkBands", axis=1)
     st.download_button(
         label="Download Indices as CSV",
         data=filtered.to_csv(index=False),
